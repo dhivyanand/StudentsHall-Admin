@@ -58,17 +58,13 @@ public class AppFunctions {
 
                     @Override
                     public void onResponse(JSONObject response) {
-                        try{
                             Toast.makeText(context, response.toString(), Toast.LENGTH_SHORT).show();
-                        }catch(Exception e){
-                            Toast.makeText(context, e.toString(), Toast.LENGTH_SHORT).show();
-                        }
                     }
                 }, new Response.ErrorListener() {
 
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        // TODO: Handle error
+
 
                     }
                 });
