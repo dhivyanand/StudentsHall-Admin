@@ -27,4 +27,12 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:text="Add" />
+
+    <ListView
+        android:id="@+id/list_date"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/date" />
 </RelativeLayout>
