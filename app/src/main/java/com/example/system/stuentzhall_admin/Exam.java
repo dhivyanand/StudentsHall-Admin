@@ -4,12 +4,14 @@ import android.app.DatePickerDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Locale;
 
@@ -19,6 +21,19 @@ public class Exam extends AppCompatActivity {
     Button add;
     Calendar myCalendar;
     Spinner session;
+
+    private void populate_spinner(){
+
+        ArrayList<String> array = new ArrayList<String>();
+        array.add("FN");
+        array.add("AN");
+
+        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_spinner_item, array);
+
+        session.setAdapter(dataAdapter);
+
+    }
 
     private void updateLabel() {
         String myFormat = "MM/dd/yy"; //In which you need put here
@@ -37,6 +52,8 @@ public class Exam extends AppCompatActivity {
         session = (Spinner)findViewById(R.id.session);
         myCalendar = Calendar.getInstance();
 
+        populate_spinner();
+
         final DatePickerDialog.OnDateSetListener myDateListener = new DatePickerDialog.OnDateSetListener() {
             @Override
             public void onDateSet(DatePicker arg0, int arg1, int arg2, int arg3) {
@@ -54,7 +71,7 @@ public class Exam extends AppCompatActivity {
             public void onClick(View view) {
 
                 if(!date.getText().toString().equals(null)) {
-                    AppFunctions.addDate(Exam.this, date.getText().toString());
+                    AppFunctions.addDate(Exam.this, date.getText().toString()+" "+session.getSelectedItem().toString());
                     date.setText(null);
                 }
 

@@ -24,7 +24,7 @@ import java.util.Map;
 
 public class AppFunctions {
 
-    static String root_URL="https://ide50-dhivianand998.cs50.io:8080/student_project/";//Fill with your hostname
+    static String root_URL;//Fill with your hostname
 
     static Context c;
 
