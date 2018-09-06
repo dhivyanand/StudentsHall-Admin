@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.Spinner;
 
 import java.text.SimpleDateFormat;
@@ -21,6 +22,7 @@ public class Exam extends AppCompatActivity {
     Button add;
     Calendar myCalendar;
     Spinner session;
+    ListView list_date;
 
     private void populate_spinner(){
 
@@ -50,9 +52,12 @@ public class Exam extends AppCompatActivity {
         add = (Button)findViewById(R.id.add);
         date = (EditText)findViewById(R.id.date);
         session = (Spinner)findViewById(R.id.session);
+        list_date = (ListView)findViewById(R.id.list_date);
         myCalendar = Calendar.getInstance();
 
         populate_spinner();
+
+        AppFunctions.server_sync(Exam.this,list_date);
 
         final DatePickerDialog.OnDateSetListener myDateListener = new DatePickerDialog.OnDateSetListener() {
             @Override
@@ -73,6 +78,7 @@ public class Exam extends AppCompatActivity {
                 if(!date.getText().toString().equals(null)) {
                     AppFunctions.addDate(Exam.this, date.getText().toString()+" "+session.getSelectedItem().toString());
                     date.setText(null);
+                    AppFunctions.server_sync(Exam.this,list_date);
                 }
 
             }

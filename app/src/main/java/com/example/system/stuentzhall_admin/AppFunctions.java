@@ -5,6 +5,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.text.TextUtils;
 import android.util.Base64;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 import com.android.volley.Request;
@@ -15,9 +16,11 @@ import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.ByteArrayOutputStream;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -142,6 +145,46 @@ public class AppFunctions {
             }
         };
         queue.add(postRequest);
+
+    }
+
+
+
+    public static void server_sync(final Context context , final ListView listView){
+
+        RequestQueue queue = Volley.newRequestQueue(context);
+        final String url = root_URL+"fetch_exam.php";
+
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
+                (Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
+
+                    @Override
+                    public void onResponse(JSONObject response) {
+
+                        try {
+                            ArrayList<String> list = new ArrayList<String>();
+                            ArrayAdapter<String> adapter = new ArrayAdapter<String>(context , android.R.layout.simple_list_item_1,list);
+
+                            for(int i=0;i<response.length();i++)
+                                list.add(response.get(String.valueOf(i)).toString());
+
+                            listView.setAdapter(adapter);
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                        Toast.makeText(context, response.toString(), Toast.LENGTH_SHORT).show();
+
+                    }
+                }, new Response.ErrorListener() {
+
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+
+
+                    }
+                });
+
+        queue.add(jsonObjectRequest);
 
     }
 
