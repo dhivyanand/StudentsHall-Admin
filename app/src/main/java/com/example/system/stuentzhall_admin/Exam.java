@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.Spinner;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -17,6 +18,7 @@ public class Exam extends AppCompatActivity {
     EditText date;
     Button add;
     Calendar myCalendar;
+    Spinner session;
 
     private void updateLabel() {
         String myFormat = "MM/dd/yy"; //In which you need put here
@@ -30,9 +32,10 @@ public class Exam extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam);
 
+        add = (Button)findViewById(R.id.add);
         date = (EditText)findViewById(R.id.date);
+        session = (Spinner)findViewById(R.id.session);
         myCalendar = Calendar.getInstance();
-
 
         final DatePickerDialog.OnDateSetListener myDateListener = new DatePickerDialog.OnDateSetListener() {
             @Override
@@ -45,6 +48,18 @@ public class Exam extends AppCompatActivity {
 
             }
         };
+
+        add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if(!date.getText().toString().equals(null)) {
+                    AppFunctions.addDate(Exam.this, date.getText().toString());
+                    date.setText(null);
+                }
+
+            }
+        });
 
         date.setOnClickListener(new View.OnClickListener() {
             @Override

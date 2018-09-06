@@ -24,7 +24,7 @@ import java.util.Map;
 
 public class AppFunctions {
 
-    static String root_URL;//Fill with your hostname
+    static String root_URL="https://ide50-dhivianand998.cs50.io:8080/student_project/";//Fill with your hostname
 
     static Context c;
 
@@ -109,6 +109,40 @@ public class AppFunctions {
         queue.add(postRequest);
 
         return true;
+    }
+
+    public static void addDate(final Context context , final String date){
+
+        RequestQueue queue = Volley.newRequestQueue(context);
+        final String url = root_URL+"add_date.php";
+
+        StringRequest postRequest = new StringRequest(Request.Method.POST, url,
+                new Response.Listener<String>()
+                {
+                    @Override
+                    public void onResponse(String response) {
+                        if(!TextUtils.equals(response,"saved successfully"))
+                            Toast.makeText(context, "Unable to reach out the server.", Toast.LENGTH_SHORT).show();
+                    }
+                },
+                new Response.ErrorListener()
+                {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        // error
+                    }
+                }
+        ) {
+            @Override
+            protected Map<String, String> getParams()
+            {
+                Map<String, String>  params = new HashMap<String, String>();
+                params.put("date", date);
+                return params;
+            }
+        };
+        queue.add(postRequest);
+
     }
 
 
