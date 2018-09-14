@@ -78,7 +78,8 @@ public class Exam extends AppCompatActivity {
                 if(!date.getText().toString().equals(null)) {
                     AppFunctions.addDate(Exam.this, date.getText().toString()+" "+session.getSelectedItem().toString());
                     date.setText(null);
-                    AppFunctions.server_sync_exam(Exam.this,list_date);
+                    finish();
+                    startActivity(getIntent());
                 }
 
             }
