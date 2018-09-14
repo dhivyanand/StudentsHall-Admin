@@ -1,6 +1,7 @@
 package com.example.system.stuentzhall_admin;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,6 +12,7 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -99,7 +101,7 @@ public class Exam extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
-
+                startActivity(new Intent(Exam.this,hall.class).putExtra("session",adapterView.getItemAtPosition(i).toString()));
 
             }
         });
