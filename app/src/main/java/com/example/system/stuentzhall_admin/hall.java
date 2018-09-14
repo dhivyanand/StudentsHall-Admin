@@ -12,5 +12,7 @@ public class hall extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hall);
 
+        session = getIntent().getStringExtra("session");
+
     }
 }
