@@ -27,7 +27,7 @@ import java.util.Map;
 
 public class AppFunctions {
 
-    static String root_URL;//Fill with your hostname
+    static String root_URL="https://ide50-dhivianand998.cs50.io:8080/student_project/";//Fill with your hostname
 
     static Context c;
 
@@ -150,7 +150,7 @@ public class AppFunctions {
 
 
 
-    public static void server_sync(final Context context , final ListView listView){
+    public static void server_sync_exam(final Context context , final ListView listView){
 
         RequestQueue queue = Volley.newRequestQueue(context);
         final String url = root_URL+"fetch_exam.php";

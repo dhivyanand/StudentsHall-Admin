@@ -57,7 +57,7 @@ public class Exam extends AppCompatActivity {
 
         populate_spinner();
 
-        AppFunctions.server_sync(Exam.this,list_date);
+        AppFunctions.server_sync_exam(Exam.this,list_date);
 
         final DatePickerDialog.OnDateSetListener myDateListener = new DatePickerDialog.OnDateSetListener() {
             @Override
@@ -78,7 +78,7 @@ public class Exam extends AppCompatActivity {
                 if(!date.getText().toString().equals(null)) {
                     AppFunctions.addDate(Exam.this, date.getText().toString()+" "+session.getSelectedItem().toString());
                     date.setText(null);
-                    AppFunctions.server_sync(Exam.this,list_date);
+                    AppFunctions.server_sync_exam(Exam.this,list_date);
                 }
 
             }
