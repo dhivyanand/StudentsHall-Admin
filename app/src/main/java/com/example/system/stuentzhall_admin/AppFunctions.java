@@ -190,6 +190,40 @@ public class AppFunctions {
 
     }
 
+    public static void addHall(final Context context ,final String session){
+
+        RequestQueue queue = Volley.newRequestQueue(context);
+        final String url = root_URL+"add_hall.php";
+
+        StringRequest postRequest = new StringRequest(Request.Method.POST, url,
+                new Response.Listener<String>()
+                {
+                    @Override
+                    public void onResponse(String response) {
+                        if(!TextUtils.equals(response,"saved successfully"))
+                            Toast.makeText(context, "Unable to reach out the server.", Toast.LENGTH_SHORT).show();
+                    }
+                },
+                new Response.ErrorListener()
+                {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        // error
+                    }
+                }
+        ) {
+            @Override
+            protected Map<String, String> getParams()
+            {
+                Map<String, String>  params = new HashMap<String, String>();
+                params.put("session", session);
+                return params;
+            }
+        };
+        queue.add(postRequest);
+
+    }
+
 
 
 }
