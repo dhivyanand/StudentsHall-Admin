@@ -54,7 +54,7 @@ public class Student extends AppCompatActivity {
                 if(!name.getText().toString().isEmpty() && !reg.getText().toString().isEmpty() && (img != null)) {
                     AppFunctions.add_student(Student.this, name.getText().toString(), reg.getText().toString(), img);
                     clearViews();
-                    AppFunctions.populateList(Student.this,list);
+                    AppFunctions.populateList_student(Student.this,list);
                 }
                 else
                     Toast.makeText(Student.this, "Please fill the fields", Toast.LENGTH_SHORT).show();

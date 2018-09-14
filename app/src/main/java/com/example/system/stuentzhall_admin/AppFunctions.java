@@ -51,7 +51,7 @@ public class AppFunctions {
         }
     }
 
-    public  static void populateList(final Context context , final ListView list){
+    public  static void populateList_student(final Context context , final ListView list){
 
         RequestQueue queue = Volley.newRequestQueue(context);
         final String url = root_URL+"fetch_data.php";
