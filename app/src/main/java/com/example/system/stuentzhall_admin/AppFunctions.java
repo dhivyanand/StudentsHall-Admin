@@ -170,6 +170,7 @@ public class AppFunctions {
                                 list.add(response.get(String.valueOf(i)).toString());
 
                             listView.setAdapter(adapter);
+                            listView.deferNotifyDataSetChanged();
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }

@@ -7,9 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecf6b5cb-d7b0-4bba-baf9-c9c9da6d4557" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/AppFunctions.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/AppFunctions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/Exam.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/Exam.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,30 +52,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exam.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Exam.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/Exam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="81" column="45" lean-forward="false" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="45" />
+            <state relative-caret-position="460">
+              <caret line="78" column="33" lean-forward="true" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppFunctions.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AppFunctions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/AppFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+            <state relative-caret-position="280">
+              <caret line="169" column="73" lean-forward="false" selection-start-line="169" selection-start-column="73" selection-end-line="169" selection-end-column="73" />
               <folding>
                 <element signature="e#2014#2289#0" expanded="true" />
                 <element signature="e#2288#2289#0" expanded="true" />
                 <element signature="e#3617#3633#0" expanded="true" />
                 <element signature="e#4953#4969#0" expanded="true" />
-                <element signature="e#5437#6293#0" expanded="true" />
+                <element signature="e#5437#6359#0" expanded="true" />
                 <element signature="e#5669#5677#0" expanded="true" />
                 <element signature="e#5756#5764#0" expanded="true" />
-                <element signature="e#6292#6293#0" expanded="true" />
+                <element signature="e#6358#6359#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,7 +84,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="500">
               <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
               <folding />
             </state>
@@ -88,7 +94,7 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="780">
               <caret line="55" column="33" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
               <folding />
             </state>
@@ -1833,9 +1839,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_exam.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_hall.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/AppFunctions.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/Student.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/Exam.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/AppFunctions.java" />
       </list>
     </option>
   </component>
@@ -2011,7 +2017,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1536938402315" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1536939135634" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2059,7 +2065,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1536938402315" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1536939135634" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2242,7 +2248,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1536938402316" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1536939135635" />
       </method>
     </configuration>
     <list size="1">
@@ -2397,7 +2403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536937932598</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Modified to Activity reload statement in onclick listner of Add Button in Exam Activity">
+      <created>1536938471053</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1536938471053</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2457,7 +2470,8 @@
     <MESSAGE value="Created Hall Activity and defined Layout" />
     <MESSAGE value="Renamed function &quot;server_sync&quot; to &quot;server_sync_exam&quot;" />
     <MESSAGE value="Renamed function &quot;populateList&quot; to &quot;populateList_student&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed function &quot;populateList&quot; to &quot;populateList_student&quot;" />
+    <MESSAGE value="Modified to Activity reload statement in onclick listner of Add Button in Exam Activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified to Activity reload statement in onclick listner of Add Button in Exam Activity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2490,10 +2504,10 @@
             <element signature="e#2288#2289#0" expanded="true" />
             <element signature="e#3617#3633#0" expanded="true" />
             <element signature="e#4953#4969#0" expanded="true" />
-            <element signature="e#5437#6293#0" expanded="true" />
+            <element signature="e#5437#6359#0" expanded="true" />
             <element signature="e#5669#5677#0" expanded="true" />
             <element signature="e#5756#5764#0" expanded="true" />
-            <element signature="e#6292#6293#0" expanded="true" />
+            <element signature="e#6358#6359#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2518,10 +2532,10 @@
             <element signature="e#2288#2289#0" expanded="true" />
             <element signature="e#3617#3633#0" expanded="true" />
             <element signature="e#4953#4969#0" expanded="true" />
-            <element signature="e#5437#6293#0" expanded="true" />
+            <element signature="e#5437#6359#0" expanded="true" />
             <element signature="e#5669#5677#0" expanded="true" />
             <element signature="e#5756#5764#0" expanded="true" />
-            <element signature="e#6292#6293#0" expanded="true" />
+            <element signature="e#6358#6359#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2562,10 +2576,10 @@
             <element signature="e#2288#2289#0" expanded="true" />
             <element signature="e#3617#3633#0" expanded="true" />
             <element signature="e#4953#4969#0" expanded="true" />
-            <element signature="e#5437#6293#0" expanded="true" />
+            <element signature="e#5437#6359#0" expanded="true" />
             <element signature="e#5669#5677#0" expanded="true" />
             <element signature="e#5756#5764#0" expanded="true" />
-            <element signature="e#6292#6293#0" expanded="true" />
+            <element signature="e#6358#6359#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2608,10 +2622,10 @@
             <element signature="e#2288#2289#0" expanded="true" />
             <element signature="e#3617#3633#0" expanded="true" />
             <element signature="e#4953#4969#0" expanded="true" />
-            <element signature="e#5437#6293#0" expanded="true" />
+            <element signature="e#5437#6359#0" expanded="true" />
             <element signature="e#5669#5677#0" expanded="true" />
             <element signature="e#5756#5764#0" expanded="true" />
-            <element signature="e#6292#6293#0" expanded="true" />
+            <element signature="e#6358#6359#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2660,10 +2674,10 @@
             <element signature="e#2288#2289#0" expanded="true" />
             <element signature="e#3617#3633#0" expanded="true" />
             <element signature="e#4953#4969#0" expanded="true" />
-            <element signature="e#5437#6293#0" expanded="true" />
+            <element signature="e#5437#6359#0" expanded="true" />
             <element signature="e#5669#5677#0" expanded="true" />
             <element signature="e#5756#5764#0" expanded="true" />
-            <element signature="e#6292#6293#0" expanded="true" />
+            <element signature="e#6358#6359#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2712,10 +2726,10 @@
             <element signature="e#2288#2289#0" expanded="true" />
             <element signature="e#3617#3633#0" expanded="true" />
             <element signature="e#4953#4969#0" expanded="true" />
-            <element signature="e#5437#6293#0" expanded="true" />
+            <element signature="e#5437#6359#0" expanded="true" />
             <element signature="e#5669#5677#0" expanded="true" />
             <element signature="e#5756#5764#0" expanded="true" />
-            <element signature="e#6292#6293#0" expanded="true" />
+            <element signature="e#6358#6359#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2764,10 +2778,10 @@
             <element signature="e#2288#2289#0" expanded="true" />
             <element signature="e#3617#3633#0" expanded="true" />
             <element signature="e#4953#4969#0" expanded="true" />
-            <element signature="e#5437#6293#0" expanded="true" />
+            <element signature="e#5437#6359#0" expanded="true" />
             <element signature="e#5669#5677#0" expanded="true" />
             <element signature="e#5756#5764#0" expanded="true" />
-            <element signature="e#6292#6293#0" expanded="true" />
+            <element signature="e#6358#6359#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2802,10 +2816,10 @@
             <element signature="e#2288#2289#0" expanded="true" />
             <element signature="e#3617#3633#0" expanded="true" />
             <element signature="e#4953#4969#0" expanded="true" />
-            <element signature="e#5437#6293#0" expanded="true" />
+            <element signature="e#5437#6359#0" expanded="true" />
             <element signature="e#5669#5677#0" expanded="true" />
             <element signature="e#5756#5764#0" expanded="true" />
-            <element signature="e#6292#6293#0" expanded="true" />
+            <element signature="e#6358#6359#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2930,26 +2944,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/AppFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-          <folding>
-            <element signature="e#2014#2289#0" expanded="true" />
-            <element signature="e#2288#2289#0" expanded="true" />
-            <element signature="e#3617#3633#0" expanded="true" />
-            <element signature="e#4953#4969#0" expanded="true" />
-            <element signature="e#5437#6293#0" expanded="true" />
-            <element signature="e#5669#5677#0" expanded="true" />
-            <element signature="e#5756#5764#0" expanded="true" />
-            <element signature="e#6292#6293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
+        <state relative-caret-position="500">
           <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
           <folding />
         </state>
@@ -2957,7 +2954,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="780">
           <caret line="55" column="33" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
           <folding />
         </state>
@@ -2965,9 +2962,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/Exam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="81" column="45" lean-forward="false" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="45" />
+        <state relative-caret-position="460">
+          <caret line="78" column="33" lean-forward="true" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/AppFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="169" column="73" lean-forward="false" selection-start-line="169" selection-start-column="73" selection-end-line="169" selection-end-column="73" />
+          <folding>
+            <element signature="e#2014#2289#0" expanded="true" />
+            <element signature="e#2288#2289#0" expanded="true" />
+            <element signature="e#3617#3633#0" expanded="true" />
+            <element signature="e#4953#4969#0" expanded="true" />
+            <element signature="e#5437#6359#0" expanded="true" />
+            <element signature="e#5669#5677#0" expanded="true" />
+            <element signature="e#5756#5764#0" expanded="true" />
+            <element signature="e#6358#6359#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
