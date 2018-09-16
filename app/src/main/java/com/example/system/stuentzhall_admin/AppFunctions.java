@@ -224,7 +224,7 @@ public class AppFunctions {
 
     }
 
-    public static void server_sync_hall(final Context context , final ListView listView , final String date) {
+    public static void server_sync_hall(final Context context , final ListView listView , final String session) {
 
         RequestQueue queue = Volley.newRequestQueue(context);
         final String url = root_URL + "fetch_hall.php";

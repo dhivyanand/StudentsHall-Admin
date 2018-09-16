@@ -9,6 +9,7 @@
     <list default="true" id="ecf6b5cb-d7b0-4bba-baf9-c9c9da6d4557" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/AppFunctions.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/AppFunctions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/hall.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/hall.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hall.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hall.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/hall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            <state relative-caret-position="361">
+              <caret line="28" column="66" lean-forward="false" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -45,9 +46,20 @@
       <file leaf-file-name="Exam.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/Exam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1161">
+            <state relative-caret-position="1700">
               <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#830#838#0" expanded="true" />
+                <element signature="e#952#960#0" expanded="true" />
+                <element signature="e#1899#2271#0" expanded="true" />
+                <element signature="e#2270#2271#0" expanded="true" />
+                <element signature="e#2305#2745#0" expanded="true" />
+                <element signature="e#2744#2745#0" expanded="true" />
+                <element signature="e#2781#3123#0" expanded="true" />
+                <element signature="e#3122#3123#0" expanded="true" />
+                <element signature="e#3168#3476#0" expanded="true" />
+                <element signature="e#3475#3476#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,8 +67,8 @@
       <file leaf-file-name="activity_hall.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_hall.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="460">
+              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -65,14 +77,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppFunctions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppFunctions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/AppFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="243" column="44" lean-forward="true" selection-start-line="243" selection-start-column="44" selection-end-line="243" selection-end-column="44" />
+            <state relative-caret-position="-180">
+              <caret line="226" column="110" lean-forward="false" selection-start-line="226" selection-start-column="110" selection-end-line="226" selection-end-column="110" />
               <folding>
-                <element signature="e#8398#8406#0" expanded="true" />
-                <element signature="e#8485#8493#0" expanded="true" />
+                <element signature="e#8401#8409#0" expanded="true" />
+                <element signature="e#8488#8496#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2027,7 +2039,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1537114258005" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1537114696864" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2075,7 +2087,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1537114258006" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1537114696864" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2258,7 +2270,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1537114258007" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1537114696866" />
       </method>
     </configuration>
     <list size="1">
@@ -2469,7 +2481,21 @@
       <option name="project" value="LOCAL" />
       <updated>1537114141054</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Complete definition of function server_sync_hall">
+      <created>1537114284441</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1537114284441</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Initialisation of Layout View under &quot;hall&quot; activity">
+      <created>1537114585824</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1537114585824</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2513,7 +2539,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added with student info update functionality." />
     <MESSAGE value="Added with student info update functionality" />
     <MESSAGE value="Merge branch 'master' of https://github.com/dhivyanand/StudentsHall-Admin&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit." />
     <MESSAGE value="Added functionalities for student listview populate function" />
@@ -2537,7 +2562,9 @@
     <MESSAGE value="Defined function &quot;addHall&quot;" />
     <MESSAGE value="Declaration of function server_sync_hall" />
     <MESSAGE value="Basic definition of function server_sync_hall with client server interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic definition of function server_sync_hall with client server interface" />
+    <MESSAGE value="Complete definition of function server_sync_hall" />
+    <MESSAGE value="Initialisation of Layout View under &quot;hall&quot; activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialisation of Layout View under &quot;hall&quot; activity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2566,8 +2593,8 @@
         <state relative-caret-position="3320">
           <caret line="188" column="5" lean-forward="false" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
           <folding>
-            <element signature="e#8398#8406#0" expanded="true" />
-            <element signature="e#8485#8493#0" expanded="true" />
+            <element signature="e#8401#8409#0" expanded="true" />
+            <element signature="e#8488#8496#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2587,8 +2614,8 @@
         <state relative-caret-position="520">
           <caret line="26" column="85" lean-forward="false" selection-start-line="26" selection-start-column="85" selection-end-line="26" selection-end-column="85" />
           <folding>
-            <element signature="e#8398#8406#0" expanded="true" />
-            <element signature="e#8485#8493#0" expanded="true" />
+            <element signature="e#8401#8409#0" expanded="true" />
+            <element signature="e#8488#8496#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2597,7 +2624,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="e#830#838#0" expanded="true" />
+            <element signature="e#952#960#0" expanded="true" />
+            <element signature="e#1899#2271#0" expanded="true" />
+            <element signature="e#2270#2271#0" expanded="true" />
+            <element signature="e#2305#2745#0" expanded="true" />
+            <element signature="e#2744#2745#0" expanded="true" />
+            <element signature="e#2781#3123#0" expanded="true" />
+            <element signature="e#3122#3123#0" expanded="true" />
+            <element signature="e#3168#3476#0" expanded="true" />
+            <element signature="e#3475#3476#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2615,7 +2653,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1060">
           <caret line="53" column="48" lean-forward="false" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
-          <folding />
+          <folding>
+            <element signature="e#830#838#0" expanded="true" />
+            <element signature="e#952#960#0" expanded="true" />
+            <element signature="e#1899#2271#0" expanded="true" />
+            <element signature="e#2270#2271#0" expanded="true" />
+            <element signature="e#2305#2745#0" expanded="true" />
+            <element signature="e#2744#2745#0" expanded="true" />
+            <element signature="e#2781#3123#0" expanded="true" />
+            <element signature="e#3122#3123#0" expanded="true" />
+            <element signature="e#3168#3476#0" expanded="true" />
+            <element signature="e#3475#3476#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2624,8 +2673,8 @@
         <state relative-caret-position="520">
           <caret line="26" column="85" lean-forward="false" selection-start-line="26" selection-start-column="85" selection-end-line="26" selection-end-column="85" />
           <folding>
-            <element signature="e#8398#8406#0" expanded="true" />
-            <element signature="e#8485#8493#0" expanded="true" />
+            <element signature="e#8401#8409#0" expanded="true" />
+            <element signature="e#8488#8496#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2644,7 +2693,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-          <folding />
+          <folding>
+            <element signature="e#830#838#0" expanded="true" />
+            <element signature="e#952#960#0" expanded="true" />
+            <element signature="e#1899#2271#0" expanded="true" />
+            <element signature="e#2270#2271#0" expanded="true" />
+            <element signature="e#2305#2745#0" expanded="true" />
+            <element signature="e#2744#2745#0" expanded="true" />
+            <element signature="e#2781#3123#0" expanded="true" />
+            <element signature="e#3122#3123#0" expanded="true" />
+            <element signature="e#3168#3476#0" expanded="true" />
+            <element signature="e#3475#3476#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2663,8 +2723,8 @@
         <state relative-caret-position="1060">
           <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
           <folding>
-            <element signature="e#8398#8406#0" expanded="true" />
-            <element signature="e#8485#8493#0" expanded="true" />
+            <element signature="e#8401#8409#0" expanded="true" />
+            <element signature="e#8488#8496#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2708,8 +2768,8 @@
         <state relative-caret-position="440">
           <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding>
-            <element signature="e#8398#8406#0" expanded="true" />
-            <element signature="e#8485#8493#0" expanded="true" />
+            <element signature="e#8401#8409#0" expanded="true" />
+            <element signature="e#8488#8496#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2753,8 +2813,8 @@
         <state relative-caret-position="380">
           <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding>
-            <element signature="e#8398#8406#0" expanded="true" />
-            <element signature="e#8485#8493#0" expanded="true" />
+            <element signature="e#8401#8409#0" expanded="true" />
+            <element signature="e#8488#8496#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2798,8 +2858,8 @@
         <state relative-caret-position="360">
           <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
           <folding>
-            <element signature="e#8398#8406#0" expanded="true" />
-            <element signature="e#8485#8493#0" expanded="true" />
+            <element signature="e#8401#8409#0" expanded="true" />
+            <element signature="e#8488#8496#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2829,8 +2889,8 @@
         <state relative-caret-position="160">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#8398#8406#0" expanded="true" />
-            <element signature="e#8485#8493#0" expanded="true" />
+            <element signature="e#8401#8409#0" expanded="true" />
+            <element signature="e#8488#8496#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2951,18 +3011,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/hall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_hall.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state relative-caret-position="460">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -2970,22 +3022,41 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/Exam.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/AppFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-180">
+          <caret line="226" column="110" lean-forward="false" selection-start-line="226" selection-start-column="110" selection-end-line="226" selection-end-column="110" />
+          <folding>
+            <element signature="e#8401#8409#0" expanded="true" />
+            <element signature="e#8488#8496#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/AppFunctions.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/Exam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="243" column="44" lean-forward="true" selection-start-line="243" selection-start-column="44" selection-end-line="243" selection-end-column="44" />
+        <state relative-caret-position="1700">
+          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
           <folding>
-            <element signature="e#8398#8406#0" expanded="true" />
-            <element signature="e#8485#8493#0" expanded="true" />
+            <element signature="e#830#838#0" expanded="true" />
+            <element signature="e#952#960#0" expanded="true" />
+            <element signature="e#1899#2271#0" expanded="true" />
+            <element signature="e#2270#2271#0" expanded="true" />
+            <element signature="e#2305#2745#0" expanded="true" />
+            <element signature="e#2744#2745#0" expanded="true" />
+            <element signature="e#2781#3123#0" expanded="true" />
+            <element signature="e#3122#3123#0" expanded="true" />
+            <element signature="e#3168#3476#0" expanded="true" />
+            <element signature="e#3475#3476#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/system/stuentzhall_admin/hall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="66" lean-forward="false" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>

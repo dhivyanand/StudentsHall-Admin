@@ -26,5 +26,7 @@ public class hall extends AppCompatActivity {
 
         session = getIntent().getStringExtra("session");
 
+        AppFunctions.server_sync_hall(hall.this , list , session);
+
     }
 }
