@@ -237,7 +237,16 @@ public class AppFunctions {
 
                         try {
 
-                        } catch (Exception e) {
+                            ArrayList<String> list = new ArrayList<String>();
+                            ArrayAdapter<String> adapter = new ArrayAdapter<String>(context, android.R.layout.simple_list_item_1, list);
+
+                            for (int i = 0; i < response.length(); i++)
+                                list.add(response.get(String.valueOf(i)).toString());
+
+                            listView.setAdapter(adapter);
+                            listView.deferNotifyDataSetChanged();
+
+                        } catch (JSONException e) {
                             e.printStackTrace();
                         }
                         Toast.makeText(context, response.toString(), Toast.LENGTH_SHORT).show();
