@@ -28,7 +28,7 @@ import java.util.Map;
 
 public class AppFunctions {
 
-    static String root_URL="https://ide50-dhivianand998.cs50.io:8080/student_project/";//Fill with your hostname
+    static String root_URL;//Fill with your hostname
 
     static Context c;
 
@@ -226,7 +226,33 @@ public class AppFunctions {
 
     public static void server_sync_hall(final Context context , final ListView listView , final String date) {
 
+        RequestQueue queue = Volley.newRequestQueue(context);
+        final String url = root_URL + "fetch_hall.php";
 
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
+                (Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
+
+                    @Override
+                    public void onResponse(JSONObject response) {
+
+                        try {
+
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+                        Toast.makeText(context, response.toString(), Toast.LENGTH_SHORT).show();
+
+                    }
+                }, new Response.ErrorListener() {
+
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+
+
+                    }
+                });
+
+        queue.add(jsonObjectRequest);
 
     }
 
