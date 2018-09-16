@@ -208,7 +208,7 @@ public class AppFunctions {
                 {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        // error
+                        Toast.makeText(context, "Problem with connectivity.", Toast.LENGTH_SHORT).show();
                     }
                 }
         ) {
@@ -224,6 +224,11 @@ public class AppFunctions {
 
     }
 
+    public static void server_sync_hall(final Context context , final ListView listView , final String date) {
 
 
-}
+
+    }
+
+
+    }
